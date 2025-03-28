@@ -9,7 +9,7 @@ export function Droppable(props: { id: string; children: React.ReactNode }) {
   };
 
   return (
-    <div ref={setNodeRef} style={style}>
+    <div ref={setNodeRef} style={style} className="w-24 h-24 bg-gray-200">
       {props.children}
     </div>
   );
